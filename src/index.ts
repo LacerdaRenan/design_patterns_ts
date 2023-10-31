@@ -1,1 +1,1 @@
-
+import './creational/singleton/index'
