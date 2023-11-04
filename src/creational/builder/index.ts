@@ -4,6 +4,8 @@ import { VeganDishBuilder } from "./classes/VeganDishBuilder";
 const mainDishBuilder = new MainDishBuilder();
 const veganDishBuilder = new VeganDishBuilder();
 
+
+// Isso poderia estar em uma classe Director
 mainDishBuilder.makeMeal().makeDessert().makeBevarage();
 veganDishBuilder.makeMeal().makeDessert().makeBevarage();
 
