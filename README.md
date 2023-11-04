@@ -28,3 +28,33 @@ Pode-se utilizar Singleton quando uma classe precisa ter somente uma instância 
   * Viola o princípio da responsabilidade única.
   * Requer outro tratamento em caso de concorrência.
   * _nosingleton_
+
+### Builder
+
+Separar a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações.
+
+* O padrão sugere a separação do código que cria e o código que usa o objeto.
+
+* Trata da criação de objetos **muito complexos**.
+
+* Permite a criação de um objeto em etapas.
+
+* Permite method chaining.
+
+* O objeto final pode variar de acordo com a necessidade.
+
+* É um padrão complexo
+
+Deve ser usado quando você deseja criar objetos complexos com várias opções de configuração, mas quer manter o código de criação desses objetos limpo e legível. Ele é útil quando um objeto tem muitos parâmetros opcionais ou quando a ordem em que esses parâmetros são fornecidos não é relevante. O padrão Builder ajuda a melhorar a legibilidade do código, tornando-o mais compreensível e evitando construtores com muitos argumentos.
+
+### Vantagens
+  * Separa criação de utilização.
+
+  * O cliente não precisa criar objetos diretamente.
+
+  * O mesmo código pode construir objetos diferentes.
+
+  * Ajuda na aplicação dos princípios SRP e OCP.
+
+### Desvantagens
+  * O código final pode se tornar muito complexo.
