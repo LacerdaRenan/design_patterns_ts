@@ -12,6 +12,7 @@ export class Beverage extends AbstractMeal { }
 
 export class Dessert extends AbstractMeal { }
 
+export class VeganMix extends AbstractMeal { }
 
 
 
