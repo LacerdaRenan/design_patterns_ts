@@ -2,5 +2,6 @@
 // import './creational/builder/index'
 // import './creational/prototype/index'
 // import './creational/factoryMethod/index'
+// import './creational/abstractFactory/index'
 
-import './creational/abstractFactory/index'
+import './structural/composite/index'

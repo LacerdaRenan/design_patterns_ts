@@ -1,0 +1,1 @@
+import './example1/ProductComponent'
